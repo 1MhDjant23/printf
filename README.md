@@ -15,7 +15,23 @@
   - [Installation](#installation)
 ## About
 
-printf is function created to provide a set of useful functions that can be used in various C programming projects. The library includes implementations of standard functions, as well as additional utility functions that may be helpful in everyday programming tasks.
+ft_printf()` is a custom implementation of the standard C library function `printf()`. It is designed to format and print data to the standard output, supporting a subset of format specifiers commonly used in the original `printf()`.
+
+## Supported Format Specifiers
+
+🎱 %c`: Character
+
+🎱 `%s`: String
+
+🎱 `%d`, `%i`: Integer
+
+🎱 `%u`: Unsigned Integer
+
+🎱 `%x`, `%X`: Hexadecimal (lowercase/uppercase)
+
+🎱 `%p`: Pointer
+
+🎱 `%f`: Floating-point
 
 ## Features
 
